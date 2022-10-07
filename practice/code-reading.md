@@ -15,7 +15,8 @@ Take a look at the following code:
 ```
 
 Explain why line 4 and line 6 output different numbers.
-
+ you can only use the local scope inside the variable only.
+ one is a local and one is a global scope so 
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +35,8 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+refernce error , y is inside the block code , it can not be accessed outside the scope.
 
 ## Question 3
 
